@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <businessLogic local="false"> 
+	<businessLogicNode>localhost</businessLogicNode>
+	<businessLogicPort>1099</businessLogicPort>
+	<businessLogicName>KIROL4ALL</businessLogicName>
+  </businessLogic>
+  <database local="false" initialize="false">
+	<databaseNode>localhost</databaseNode>
+	<dbFilename>src/main/reso/rides.temp</dbFilename>
+	<databasePort>6136</databasePort>
+	<user>admin</user>
+	<password>admin</password>
+  </database>
+  <locale>en</locale>
+</config>
